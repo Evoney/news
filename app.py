@@ -2,7 +2,7 @@ from sys import argv
 from datetime import datetime
 import requests
 
-API_KEY = '8642ccb791a745e6ad534e0afd24da55'
+API_KEY = 'YOUR_KEY'
 URL = 'https://newsapi.org/v2/top-headlines?'
 
 def get_articles_by_category(category=None, country='br'):
